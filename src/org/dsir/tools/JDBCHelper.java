@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class JDBCHelper {
     public static final String DRIVER = "com.mysql.jdbc.Driver";
-    public static final String URL = "jdbc:mysql://localhost:3306/php_mysql";
+    public static final String URL = "jdbc:mysql://localhost:3306/crm";
     public static final String username = "root";
     public static final String password = "root";
     public static Connection getConn() throws  Exception{

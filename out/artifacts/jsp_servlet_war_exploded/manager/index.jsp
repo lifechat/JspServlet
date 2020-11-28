@@ -12,9 +12,9 @@
     <title>客户关系管理系统</title>
     <link rel="stylesheet" href="../css/pintuer.css">
     <link rel="stylesheet" href="../css/">
-    <script src="../js/jquery.js">
+    <script src="../js/jquery.js"></script>
 </head>
 <body>
-
+   登录成功
 </body>
 </html>

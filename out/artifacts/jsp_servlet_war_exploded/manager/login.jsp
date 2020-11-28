@@ -22,10 +22,10 @@
             <div class="xs6 xm4 xs3-move xm4-move">
                 <div style="height: 150px;"></div>
                 <div class="media media-y margin-big-bottom"></div>
-                <form action="<%=path%>/CheckLoginId" method="post" name="f">
+                <form action="<%=path %>/CheckLoginId" method="post" name="f">
                     <div class="panel loginbox">
                         <div class="text-center margin-big padding-big-top">
-                            <h1>后台管理中心</h1>
+                            <h1>CRM后台管理中心</h1>
                         </div>
                         <div class="panel-body" style="padding:30px; padding-bottom:10px; padding-top:10px;">
                             <div class="form-group">
@@ -59,8 +59,15 @@
 <script>
    function checkLogin(){
        var loginacount = f.loginacount.value;
-       if(loginacount == ""){
+       if(loginacount == "" ){
            alert("账号不能为空");
+       }
+   }
+   function checkPassword(){
+       var loginPwd =  f.password.value;
+       if(loginPwd == "")
+       {
+           alert("密码不能为空");
        }
    }
 </script>

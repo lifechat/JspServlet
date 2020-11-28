@@ -1,8 +1,9 @@
 package org.dsir.pojo;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class WorkerPOJO {
+public class WorkerPOJO implements Serializable {
     private BigDecimal workerId;// ְ��ID
     private String workerName;// ְ����
     private int workerSex;// �Ա�
